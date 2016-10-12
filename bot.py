@@ -8,7 +8,7 @@ sys.setdefaultencoding('utf8')
 bot = telebot.TeleBot('175532355:AAEX7Lv1qoFPZfD8iauXS8m8VngQdcIdkMQ')
 blocklist = r.smembers('blocklist')
 def is_block(cid):
-return str(cid) in blocklist
+	return str(cid) in blocklist
 @bot.message_handler(content_types=['text','sticker', 'photo', 'audio', 'video', 'contact', 'location', 'document', 'venue'])
 def main(m):
   if is_block(m.from_user.id):
