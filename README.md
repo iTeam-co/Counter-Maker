@@ -22,7 +22,7 @@ First we Clone the source code and go to that directory
 $ git clone https://github.com/iTeam-co/Counter-Maker
 $ cd Counter-Maker
 ```
-Add your token to fourth line of *bot.py* file.
+Add your token to line 8 of *bot.py* file.
 
 Then we install the dependencies
 
@@ -32,6 +32,7 @@ $ apt-get install redis-server
 $ pip install pyTelegramBotApi
 $ pip install redis
 ```
+Please make a public channel and put the channel username in line 4
 Now we run the bot
 
 ```sh
