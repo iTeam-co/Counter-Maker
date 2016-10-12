@@ -29,10 +29,12 @@ Then open *bot.py* using
 $ nano bot.py
 ```
 
-Ater that:
-Add your token to line 4
+After that Add your token to line 4
+
 Make a public channel and put the channel username in line 5
+
 Write your telegram ID in line 6
+
 Save file and exit using `ctrl + c ; y ; enter`
 
 Then we install the dependencies
